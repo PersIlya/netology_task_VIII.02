@@ -27,8 +27,7 @@
  - Разместить в стартовой веб-странице шаблонной ВМ ссылку на картинку из бакета.
  - Настроить проверку состояния ВМ.
  
-3. Подключить группу к сетевому балансировщику:
-
+3. Подключить группу к сетевому балансировщику:              
  - Создать сетевой балансировщик.
  - Проверить работоспособность, удалив одну или несколько ВМ.
 4. (дополнительно)* Создать Application Load Balancer с использованием Instance group и проверкой состояния.
@@ -41,14 +40,14 @@
 
 ### <div style="text-align: center;">Решение</div>  
 >по пунктам 1-3        
-![localImage](./screen_VIII.1_1.png)               
+![localImage](./screen_VIII.2_1.png)               
 
 ## Ссылки на файлы:
->[Variables](./conf/variables.tf);         
->[Main](./conf/main.tf);       
->[VM Nat](./conf/nat.tf);    
->[VM 1](./conf/vm1.tf);           
->[VM 2](./conf/vm2.tf).   
+>[Bucket](./conf/bucket.tf);         
+>[Load Balancer](./conf/load-balancer.tf);       
+>[Main](./conf/main.tf);    
+>[Locals](./conf/locals.tf);           
+>[Variables](./conf/variables.tf).   
 
 ---
 ## Задание 2*. AWS (задание со звёздочкой)
