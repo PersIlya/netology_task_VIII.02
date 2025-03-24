@@ -3,5 +3,6 @@ conf/personal.auto.tfvars
 conf/outputs.tf
 conf/providers.tf
 conf/terraform.tfstat*
+conf/terraform.*
 conf/.*
 conf/.*/
