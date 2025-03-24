@@ -1,9 +1,0 @@
-yc compute instance list
-
-yc vpc subnet list
-
-yc vpc subnet show private_subnet
-
-yc vpc subnet show public_subnet
-
-yc compute instance show fhm7avoc5v2i4oes4vgu | sed -n  '/network_interfaces/,/serial_port_settings/ p'
